@@ -1,0 +1,36 @@
+<svg width="1400" height="520" viewBox="0 0 1400 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="520" rx="34" fill="#08111F"/>
+  <path d="M0 400C160 332 254 448 420 382C578 319 653 176 825 210C1046 254 1093 67 1400 122V520H0V400Z" fill="#123A57"/>
+  <path d="M0 431C194 352 301 483 488 424C652 372 723 259 902 300C1086 342 1171 202 1400 250V520H0V431Z" fill="#145C4C"/>
+  <rect x="62" y="64" width="1276" height="392" rx="24" fill="white" fill-opacity="0.05" stroke="white" stroke-opacity="0.14"/>
+  <g opacity="0.55">
+    <path d="M905 346L953 281L1007 307L1073 199L1135 235L1217 134" stroke="#69E0B0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="905" cy="346" r="10" fill="#69E0B0"/>
+    <circle cx="953" cy="281" r="10" fill="#69E0B0"/>
+    <circle cx="1007" cy="307" r="10" fill="#69E0B0"/>
+    <circle cx="1073" cy="199" r="10" fill="#69E0B0"/>
+    <circle cx="1135" cy="235" r="10" fill="#69E0B0"/>
+    <circle cx="1217" cy="134" r="10" fill="#69E0B0"/>
+  </g>
+  <g>
+    <rect x="865" y="118" width="392" height="270" rx="18" fill="#0B1728" stroke="#2A6F63"/>
+    <rect x="892" y="150" width="338" height="16" rx="8" fill="#2A6F63"/>
+    <rect x="892" y="188" width="226" height="13" rx="6.5" fill="#F3B45B"/>
+    <rect x="892" y="222" width="286" height="13" rx="6.5" fill="#6EA8FE"/>
+    <rect x="892" y="256" width="186" height="13" rx="6.5" fill="#69E0B0"/>
+    <rect x="892" y="304" width="132" height="52" rx="12" fill="#10243A" stroke="#284C6B"/>
+    <rect x="1044" y="304" width="132" height="52" rx="12" fill="#10243A" stroke="#284C6B"/>
+  </g>
+  <text x="96" y="148" fill="#69E0B0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">AI-NATIVE QUANT RESEARCH</text>
+  <text x="96" y="232" fill="white" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900">AI Hedge Fund</text>
+  <text x="96" y="292" fill="#D9E8F2" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="600">A multi-agent investing lab for valuation, signals,</text>
+  <text x="96" y="334" fill="#D9E8F2" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="600">risk management, and portfolio decisions.</text>
+  <g>
+    <rect x="96" y="378" width="190" height="48" rx="24" fill="#69E0B0"/>
+    <text x="132" y="410" fill="#07111F" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">LLM Agents</text>
+    <rect x="306" y="378" width="214" height="48" rx="24" fill="#F3B45B"/>
+    <text x="342" y="410" fill="#07111F" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Backtesting</text>
+    <rect x="540" y="378" width="184" height="48" rx="24" fill="#6EA8FE"/>
+    <text x="576" y="410" fill="#07111F" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Risk Layer</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="500" rx="28" fill="#08111F"/>
+  <text x="52" y="66" fill="white" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="900">System Architecture</text>
+  <text x="52" y="101" fill="#AAB7C5" font-family="Inter, Arial, sans-serif" font-size="17">A clean separation between data, agent reasoning, risk control, and experiment evaluation.</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="52" y="148" width="246" height="246" rx="22" fill="#0E2238" stroke="#284C6B"/>
+    <text x="86" y="192" fill="#6EA8FE" font-size="18" font-weight="900">Data Layer</text>
+    <text x="86" y="232" fill="#D7E2EE" font-size="16">Financial metrics</text>
+    <text x="86" y="264" fill="#D7E2EE" font-size="16">Price history</text>
+    <text x="86" y="296" fill="#D7E2EE" font-size="16">Insider trades</text>
+    <text x="86" y="328" fill="#D7E2EE" font-size="16">News and sentiment</text>
+    <rect x="360" y="128" width="300" height="286" rx="22" fill="#0D2B26" stroke="#2A6F63"/>
+    <text x="394" y="172" fill="#69E0B0" font-size="18" font-weight="900">Agent Layer</text>
+    <text x="394" y="212" fill="#D7E2EE" font-size="16">Investor personas</text>
+    <text x="394" y="244" fill="#D7E2EE" font-size="16">Valuation engine</text>
+    <text x="394" y="276" fill="#D7E2EE" font-size="16">Technical signals</text>
+    <text x="394" y="308" fill="#D7E2EE" font-size="16">Fundamentals</text>
+    <text x="394" y="340" fill="#D7E2EE" font-size="16">Sentiment analysis</text>
+    <rect x="722" y="148" width="188" height="246" rx="22" fill="#3A2A10" stroke="#8A631E"/>
+    <text x="754" y="192" fill="#F3B45B" font-size="18" font-weight="900">Risk Layer</text>
+    <text x="754" y="232" fill="#F7E8CA" font-size="16">Exposure</text>
+    <text x="754" y="264" fill="#F7E8CA" font-size="16">Position size</text>
+    <text x="754" y="296" fill="#F7E8CA" font-size="16">Constraints</text>
+    <text x="754" y="328" fill="#F7E8CA" font-size="16">Guardrails</text>
+    <rect x="972" y="148" width="176" height="246" rx="22" fill="#101827" stroke="#344054"/>
+    <text x="1002" y="192" fill="#E5E7EB" font-size="18" font-weight="900">Portfolio</text>
+    <text x="1002" y="232" fill="#D1D5DB" font-size="16">Buy</text>
+    <text x="1002" y="264" fill="#D1D5DB" font-size="16">Sell</text>
+    <text x="1002" y="296" fill="#D1D5DB" font-size="16">Short</text>
+    <text x="1002" y="328" fill="#D1D5DB" font-size="16">Hold</text>
+  </g>
+  <g stroke="#77889C" stroke-width="4" stroke-linecap="round">
+    <path d="M308 271H350"/>
+    <path d="M672 271H712"/>
+    <path d="M920 271H962"/>
+  </g>
+  <g fill="#77889C">
+    <path d="M350 271L336 262V280L350 271Z"/>
+    <path d="M712 271L698 262V280L712 271Z"/>
+    <path d="M962 271L948 262V280L962 271Z"/>
+  </g>
+  <rect x="52" y="438" width="1096" height="1" fill="#263445"/>
+  <text x="52" y="470" fill="#AAB7C5" font-family="Inter, Arial, sans-serif" font-size="15">Backtesting and metrics wrap the full loop so agent decisions can be evaluated historically.</text>
+</svg>

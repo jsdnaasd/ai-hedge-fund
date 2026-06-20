@@ -1,0 +1,36 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="360" rx="28" fill="#F6F8FA"/>
+  <text x="52" y="64" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900">Agent Decision Workflow</text>
+  <text x="52" y="98" fill="#526070" font-family="Inter, Arial, sans-serif" font-size="17">From market data to controlled portfolio actions.</text>
+  <g font-family="Inter, Arial, sans-serif" font-weight="800" font-size="18">
+    <rect x="54" y="150" width="190" height="98" rx="18" fill="#0F2742"/>
+    <text x="91" y="193" fill="white">Market Data</text>
+    <text x="91" y="223" fill="#A7C8E8" font-size="14">prices · news · filings</text>
+    <rect x="298" y="150" width="190" height="98" rx="18" fill="#0D4C42"/>
+    <text x="333" y="193" fill="white">Signal Agents</text>
+    <text x="333" y="223" fill="#BDF5DD" font-size="14">valuation · sentiment</text>
+    <rect x="542" y="150" width="190" height="98" rx="18" fill="#704414"/>
+    <text x="580" y="193" fill="white">Risk Manager</text>
+    <text x="580" y="223" fill="#FFE0A3" font-size="14">limits · exposure</text>
+    <rect x="786" y="150" width="190" height="98" rx="18" fill="#1D3F77"/>
+    <text x="812" y="193" fill="white">Portfolio Agent</text>
+    <text x="812" y="223" fill="#C8DAFF" font-size="14">decision synthesis</text>
+    <rect x="1030" y="150" width="116" height="98" rx="18" fill="#111827"/>
+    <text x="1058" y="193" fill="white">Output</text>
+    <text x="1057" y="223" fill="#D1D5DB" font-size="14">orders</text>
+  </g>
+  <g stroke="#94A3B8" stroke-width="4" stroke-linecap="round">
+    <path d="M254 199H288"/>
+    <path d="M498 199H532"/>
+    <path d="M742 199H776"/>
+    <path d="M986 199H1020"/>
+  </g>
+  <g fill="#94A3B8">
+    <path d="M288 199L276 191V207L288 199Z"/>
+    <path d="M532 199L520 191V207L532 199Z"/>
+    <path d="M776 199L764 191V207L776 199Z"/>
+    <path d="M1020 199L1008 191V207L1020 199Z"/>
+  </g>
+  <rect x="54" y="288" width="1092" height="1" fill="#D8DEE7"/>
+  <text x="54" y="322" fill="#526070" font-family="Inter, Arial, sans-serif" font-size="15">Designed for research, backtesting, and transparent agent reasoning. Not for live trading or investment advice.</text>
+</svg>
