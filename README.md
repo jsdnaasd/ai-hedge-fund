@@ -5,9 +5,9 @@
 <h1 align="center">AI Hedge Fund</h1>
 
 <p align="center">
-  <strong>A multi-agent quant research lab for market analysis, valuation, risk control, and portfolio decisions.</strong>
+  <strong>Forked research notes / personal study branch for a multi-agent quant research project.</strong>
   <br />
-  <strong>一个面向量化研究、市场分析、估值判断、风险控制与组合决策的多智能体 AI 投研实验室。</strong>
+  <strong>这是一个 fork 后的个人学习分支，用于研究多智能体量化投研系统的结构和实现方式。</strong>
 </p>
 
 <p align="center">
@@ -28,16 +28,24 @@
 
 ---
 
-## Why This Project
+## Repository Status
+
+This repository is a fork of [`virattt/ai-hedge-fund`](https://github.com/virattt/ai-hedge-fund). I keep it as a personal study branch for reading the architecture, testing the CLI, and collecting notes around agent-based quantitative research workflows.
+
+The main codebase, original implementation, and MIT License come from the upstream project. My changes are presentation notes and documentation-oriented edits, not a claim of original authorship.
+
+中文说明：本仓库是 [`virattt/ai-hedge-fund`](https://github.com/virattt/ai-hedge-fund) 的 fork。这里保留为个人学习分支，主要用于阅读架构、测试 CLI、整理多智能体量化投研流程的学习笔记。核心代码、原始实现和 MIT License 来自上游项目；这里的改动主要是展示和文档层面的整理，不声明为原创项目。
+
+## Why I Study This Project
 
 AI Hedge Fund turns the idea of an investment committee into a programmable agent system. Instead of asking one model for a trade, it coordinates specialized agents that analyze fundamentals, valuation, sentiment, technicals, macro-style risk, and portfolio constraints before producing a final decision.
 
-This repository is designed for builders who want to study:
+This fork is useful for studying:
 
 - how LLM agents can be organized into a financial research workflow;
 - how valuation, risk, sentiment, and technical signals can be combined;
 - how a backtesting layer can turn model outputs into measurable experiments;
-- how an AI-native investing interface can be structured without putting an LLM directly on the live order path.
+- how an agent-assisted investing interface can be structured without putting an LLM directly on the live order path.
 
 > This is a research and education project, not financial advice and not a live trading system.
 
@@ -45,12 +53,12 @@ This repository is designed for builders who want to study:
 
 AI Hedge Fund 是一个把「投资委员会」抽象成多智能体系统的量化投研项目。它不是简单地让一个大模型直接给出买卖建议，而是让多个专业 Agent 分别从基本面、估值、情绪、技术指标、风险暴露和组合约束等角度进行分析，最后由风险管理与组合管理模块综合生成决策。
 
-这个项目适合关注 AI + Quant + Web3/金融自动化方向的开发者研究：
+这个学习分支适合关注 AI + Quant + Web3/金融自动化方向的开发者研究：
 
 - 如何把 LLM Agent 组织成可扩展的金融研究流程；
 - 如何把估值、基本面、市场情绪、技术指标等信号合并为结构化观点；
 - 如何通过回测层把 Agent 输出转化为可评估的实验结果；
-- 如何设计一个 AI-native 的投研系统，同时避免让大模型直接进入真实下单路径。
+- 如何设计一个 Agent 辅助的投研系统，同时避免让大模型直接进入真实下单路径。
 
 > 本项目仅用于技术研究、教育学习和系统设计参考，不构成任何投资建议，也不是实盘交易系统。
 
